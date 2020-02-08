@@ -15,7 +15,6 @@ function create_window() {
     bit_view.setBounds({ x: 0, y:0, width: 800, height: 600 });
     bit_view.webContents.loadURL("http://bitchute.com");
     win.on("resize", function () {
-        console.log("resize");
         let old_bounds = bit_view.getBounds();
         let new_size = win.getSize();
         old_bounds.width = new_size[0];

@@ -7,7 +7,7 @@
   "author": "mc1472 <mc1472@protonmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^7.1.2"
+    "electron": "^7.2.4"
   },
   "scripts": {
     "start": "electron ."
